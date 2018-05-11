@@ -9,7 +9,7 @@ body {
 
 .container {
   margin: 20px auto;
-  width: 90%;
+  width: 100%;
 }
 
 div {
@@ -27,11 +27,11 @@ div {
   }
 }
 
-h1 {
+
+h1, h3 {
   font-size: 2.5em;
   font-family: verdana;
   margin: 0;
-
 }
 
 h3 {
@@ -39,6 +39,26 @@ h3 {
   font-weight: 300;
 }
 
-.preview baku {
- background: url(images/baku.jpg)
+.preview {
+float: left;
+background-repeat: no-repeat;
+background-size: contain;
+width: 300px;
+height: 300px;
+}
+
+.baku {
+background: url(../images/baku.jpg)
+}
+
+.london {
+background: url(../images/london.png)
+}
+
+.madrid {
+background: url(../images/madrid.jpg)
+}
+
+.rome {
+background: url(../images/rome.jpg)
 }
