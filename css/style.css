@@ -1,4 +1,44 @@
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
 body {
   background-color: #dadada;
   font-size: 10px;
+}
+
+.container {
+  margin: 20px auto;
+  width: 90%;
+}
+
+div {
+  background-color: #dadada;
+  float: left;
+  margin: 1% 0;
+  width: 100%;
+  padding: 20px 25px;
+}
+
+@media screen and (min-width: 575px){
+   div {
+    margin: 1%;
+    width: 48%;
+  }
+}
+
+h1 {
+  font-size: 2.5em;
+  font-family: verdana;
+  margin: 0;
+
+}
+
+h3 {
+  font-size: 1.8em;
+  font-weight: 300;
+}
+
+.preview baku {
+ background: url(images/baku.jpg)
 }
