@@ -36,24 +36,20 @@ background: url(../images/madrid.jpg)
 background: url(../images/rome.jpg)
 }
 
-h1 {
-  font-size: 3em;
+.emphasis {
+
+}
+
+h1, h3 {
+  font-size: 2em;
   font-family: sans-serif;
   margin: 2%;
 }
 
 h3 {
-  font-size: 1.8em;
-  font-weight: 300;
+  font-size: 2em;
+  font-weight: 100;
 }
-
-@media screen and (min-width: 575px){
-   div {
-    margin: 1%;
-    width: 48%;
-  }
-}
-
 
 .preview {
 float: left;
@@ -61,4 +57,11 @@ background-repeat: no-repeat;
 background-size: cover;
 width: 300px;
 height: 300px;
+}
+
+@media screen and (min-width: 575px){
+   .preview {
+    margin: 1%;
+    width: 48%;
+  }
 }
