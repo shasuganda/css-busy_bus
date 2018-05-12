@@ -9,12 +9,15 @@ body {
 
 .container {
   margin: 20px auto;
-  width: 100%;
+  width: 80%;
+  text-align: center;
+  text-transform: uppercase;
 }
 
 div {
   background-color: #dadada;
-  float: left;
+  text-align: left;
+  text-transform: capitalize;
   margin: 1% 1%;
   width: 100%;
   padding: 20px 20px;
@@ -36,19 +39,11 @@ background: url(../images/madrid.jpg)
 background: url(../images/rome.jpg)
 }
 
-.emphasis {
 
-}
-
-h1, h3 {
+h1 {
   font-size: 2em;
   font-family: sans-serif;
   margin: 2%;
-}
-
-h3 {
-  font-size: 2em;
-  font-weight: 100;
 }
 
 .preview {
@@ -63,5 +58,12 @@ height: 300px;
    .preview {
     margin: 1%;
     width: 48%;
+  }
+}
+
+@media screen and (min-width: 991px){
+   .preview {
+    margin: 1%;
+    width: 20%;
   }
 }
