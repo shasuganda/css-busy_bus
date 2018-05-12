@@ -15,36 +15,9 @@ body {
 div {
   background-color: #dadada;
   float: left;
-  margin: 1% 0;
+  margin: 1% 1%;
   width: 100%;
-  padding: 20px 25px;
-}
-
-@media screen and (min-width: 575px){
-   div {
-    margin: 1%;
-    width: 48%;
-  }
-}
-
-
-h1, h3 {
-  font-size: 2.5em;
-  font-family: verdana;
-  margin: 0;
-}
-
-h3 {
-  font-size: 1.8em;
-  font-weight: 300;
-}
-
-.preview {
-float: left;
-background-repeat: no-repeat;
-background-size: contain;
-width: 300px;
-height: 300px;
+  padding: 20px 20px;
 }
 
 .baku {
@@ -61,4 +34,31 @@ background: url(../images/madrid.jpg)
 
 .rome {
 background: url(../images/rome.jpg)
+}
+
+h1 {
+  font-size: 3em;
+  font-family: sans-serif;
+  margin: 2%;
+}
+
+h3 {
+  font-size: 1.8em;
+  font-weight: 300;
+}
+
+@media screen and (min-width: 575px){
+   div {
+    margin: 1%;
+    width: 48%;
+  }
+}
+
+
+.preview {
+float: left;
+background-repeat: no-repeat;
+background-size: cover;
+width: 300px;
+height: 300px;
 }
