@@ -51,24 +51,25 @@ h2 {
 
 li {
   padding-left: 10px;
+  padding-bottom: 10px;
   font-size: 16px;
+  font-weight: 500;
   width: 40%;
-  margin: 10px 10px;
+  margin: 0px 10px;
   text-align: left;
   float: left;
 }
 
 h3 {
-  padding-left: 50px;
   font-size: 16px;
-  width: 30%;
+  margin: 0px 10px;
   text-align:right;
-  float: left;
+  float: right;
 }
 
 ul {
 background-color: #ffffff;
-padding: 10px 20px;
+padding: 10px 10px;
 }
 
 .bus-info{
