@@ -103,6 +103,10 @@ h3 {
   line-height: 1.4;
 }
 
+span {
+width: inherit;  
+}
+
 .BottomBar {
   width: 414px;
   position: fixed;
