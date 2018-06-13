@@ -1,109 +1,79 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <title>BusyBus</title>
-    <link rel="stylesheet" href="css/reset.css">
-    <link rel="stylesheet" href="css/style.css">
-  </head>
-  <body>
-      <section class="container">
-          <div class="statusbar">
-            <img src="images/StatusBar.png" alt="StatusBar" />
-            <img src="images/BusView.png" alt="BusView" />
-            <h1> State &  Washington</h1>
+    <head>
+        <meta charset="utf-8">
+        <title>BusyBus</title>
+        <link rel="stylesheet" href="css/reset.css">
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+
+    <body>
+        <section class="container">
+            <div class="statusbar">
+                <img src="images/StatusBar.png" alt="StatusBar" />
+                <img src="images/BusView.png" alt="BusView" />
+                <h1> State & Washington </h1>
             </div>
 
             <section class="listing">
-             <ul>
-               <h2 class="bus-routes">60</h2>
-               <ul class ="bus-info">
-                 <li class="location">Eastbound -<br/>Randolph / Harbor Dr</li>
-                 <span class="time"><font color=#219653><h3>Now</font><br/>20 min</h3></span>
-               </ul>
-             </ul>
+                <ul>
+                    <li>
+                        <h2 class="bus-routes">60</h2>
+                        <span class="location">Eastbound -<br/>
+                          Randolph / Harbor Dr</span>
+                        <span class="time"><font color=#219653><h3>Now</font><br/>Every 20 min</h3></span>
+                    </li>
 
-             <ul>
-               <h2 class="bus-routes">124</h2>
-               <ul class ="bus-info">
-                 <li class="location">Eastbound - <br/>
-                 Navy Pier</li>
-                 <span class="time"><h3>2 min<br/>12, 22 min</h3></span>
-               </ul>
-             </ul>
+                    <li>
+                        <h2 class="bus-routes">124</h2>
+                        <span class="location">Eastbound - <br/>Navy Pier</span>
+                        <span class="time"><font color=#219653><h3>1 min</font><br/>Every 10 min</h3></span>
+                    </li>
 
-             <ul>
-               <h2 class="bus-routes">151</h2>
-               <ul class ="bus-info">
-                 <li class="location">Northbound -<br/>
-                 Devon / Clark</li>
-                 <span class="time"><h3>3 min<br/>19, 35 min</h3></span>
-               </ul>
-             </ul>
+                    <li>
+                        <h2 class="bus-routes">151</h2>
+                        <span class="location">Northbound - <br/>Devon/Clark</span>
+                        <span class="time"><font color=#219653><h3>3 min</font><br/>Every 16 min</h3></span>
+                    </li>
 
-             <ul>
-                 <h2 class="bus-routes">J14</h2>
-                 <ul class ="bus-info">
-                   <li class="location">Southbound -<br/>
-                   103rd / Stony​ Island</li>
-                    <span class="time"><h3>5 min<br/>20, 35  min</h3></span>
-                 </ul>
+                    <li>
+                        <h2 class="bus-routes">J14</h2>
+                        <span class="location">Southbound - <br/>103rd/Stony​ ​Island</span>
+                        <span class="time"><font color=#219653><h3>5 min</font><br/>Every 15 min</h3></span>
+                    </li>
+
+
+                    <li>
+                        <h2 class="bus-routes">124</h2>
+                        <span class="location">Southbound - <br/>Navy​ ​Pier</span>
+                        <span class="time"><h3>8 min<br/>Every 10 min</h3></span>
+                    </li>
+
+
+                    <li>
+                        <h2 class="bus-routes">6X</h2>
+                        <span class="location">Reroute - <br/>Jackson​ ​Park​ ​Express</span>
+                        <span class="time"><h3>N/A</h3></span>
+                    </li>
+
+
+                    <li>
+                        <h2 class="bus-routes">4</h2>
+                        <span class="location">Out​ ​of​ ​service -<br/>Cottage​ ​Grove</span>
+                        <span class="time"><h3>Resumes 12:10am</h3></span>
+                    </li>
+
+
+                    <li>
+                        <h2 class="bus-routes">20</h2>
+                        <span class="location">Out​ ​of​ ​service -</br>Madison</span>
+                        <span class="time"><h3>Resumes 12:10am</h3></span>
+                    </li>
                 </ul>
 
-             <ul>
-                <h2 class="bus-routes">124</h2>
-                <ul class ="bus-info">
-                   <li class="location">Southbound -<br/>
-                   Navy​ ​Pier</li>
-                   <span class="time"><h3>10 min<br/>20, 30 min</h3></span>
-                 </ul>
-               </ul>
+                <div class="Bottombar"><img src="images/bottom.png" alt="Bottom" /></div>
 
-             <ul>
-                 <h2 class="bus-routes">6X</h2>
-                 <ul class ="bus-info">
-                   <li class="location">Reroute -<br/>
-                   Jackson​ ​Park​ ​Express</li>
-                   <span class="time"><h3>N/A</h3></span>
-                 </ul>
-               </ul>
-
-             <ul>
-                <h2 class="bus-routes">4</h2>
-                 <ul class ="bus-info">
-                   <li class="location">Out​ ​of​ ​service -<br/>
-                   Cottage​ ​Grove</li>
-                   <span class="time"><h3>Resumes<br/>
-                     12:10am</h3></span>
-                 </ul>
-               </ul>
-
-             <ul>
-                 <h2 class="bus-routes">20</h2>
-                 <ul class ="bus-info">
-                   <li class="location">Out​ ​of​ ​service -<br/>
-                  Madison</li>
-                   <span class="time"><h3>Resumes<br/>
-                     12:10am</h3></span>
-                 </ul>
-             </ul>
-
-               <ul>
-                 <h2 class="bus-routes">157</h2>
-               <ul class ="bus-info">
-                   <li class="location">Out​ ​of​ ​service -<br/>
-                   Streeterville / Taylor</li>
-                   <span class="time"><h3>Resumes<br/>
-                     6:00am</h3></span>
-                 </ul>
-               </ul>
-
-           </section>
-
-           <div class="Bottombar">
-             <img src="images/bottom.png" alt="Bottom" />
-             </div>
-
-    </section>
-  </body>
+            </section>
+        </section>
+    </body>
 </html>

@@ -29,9 +29,26 @@ h1 {
   font-weight: 500;
   padding-top: 5%;
   padding-bottom: 5%;
+  width: 100%;
   text-align: center;
   font-size: 24px;
   border-bottom: 1px solid black;
+}
+
+ul {
+    float: left;
+    padding: 10px 20px;
+    width: inherit;
+}
+
+li {
+  padding-left: 10px;
+  padding-bottom: 10px;
+  font-size: 16px;
+  font-weight: 500;
+  width: inherit;
+  text-align: left;
+  float: left;
 }
 
 .listing {
@@ -40,71 +57,59 @@ h1 {
   overflow-y: auto;
 }
 
-.listing > ul + ul:before {
-  background: #bdbdbd none repeat scroll 0 0;
-  content:"";
-  display: block;
-  height: 1px;
-  margin: -10px 0 10px;
-  width: inherit;
-}
-
-ul {
-  float: left;
-  padding: 10px 20px;
-  width: inherit;
-}
-
-li {
-  padding-left: 10px;
-  padding-bottom: 5px;
-  font-size: 16px;
-  font-weight: 500;
-  text-align: left;
-  float: left;
+.listing > ul > li + li:before{
+    background: #BDBDBD none repeat scroll 0 0;
+    content: "";
+    display: block;
+    height: 1px;
+    margin: 0px 0 10px;
+    width: inherit;
 }
 
 .bus-routes {
-  width: 20%;
-  float: left;
+ width: 20%;
+ float: left;
 }
 
 h2 {
+  background-color: #ffffff;
   border: 1px solid #005CB9;
   font-weight: 100;
-  padding-top: 8px;
-  padding-bottom: 8px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  width: 100%;
   text-align: center;
-  font-size: 25px;
+  font-size: 30px;
   color: #005CB9;
   border-radius: 2px;
 }
 
-.bus-info {
-  width: 80%;
-  float: left;
-  padding: 0px;
+.bus-info{
+ width: 80%;
+ float: left;
+    padding: 0px;
 }
 
-.location {
-    width: 63%;
+.location{
+    width: 45%;
     font-weight: bold;
     line-height: 1.2;
+    margin: 2px 18px;
+    float: left;
 }
 
-.time {
-    width:30%;
+.time{
+    width:23%;
+    float: right;
+    margin: 2px;
 }
 
 h3 {
   font-size: 14px;
+  line-height: 1.4;
+  font-weight: 500;
   text-align: right;
   float: right;
-  line-height: 1.4;
-}
-
-span {
-width: inherit;  
 }
 
 .BottomBar {
